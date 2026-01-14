@@ -295,7 +295,7 @@ Sweet. We now have a python script to pull data and load to postgres.
 Have a container hold the ingestion script and push the data to our postgres container.
 
 - Have Dockerfile COPY in python data ingestion script
-- Build with a tag: `docker build -t taxi_ingest:v001`
+- Build with a tag: `docker build -t taxi_ingest:v001 .`
 
 ### Host Challenge with Ingestion Container
 

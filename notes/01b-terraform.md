@@ -17,6 +17,7 @@ Open-Source Infrastructure as Code
 - `init`: get the providers we need
 - `plan`: view what will be created/updated
 - `apply`: do what is in the tf files
+    - `-auto-approve`: optional flag to immediately execute on created plan
 - `destroy`: remove everything defined in tf files
 
 ## Terraform - GCP Walkthrough
