@@ -17,5 +17,7 @@ serving_dir
 *.parquet
 *.csv
 *.json
+.env
+.env_encoded
 **/.env
 **/.env_encoded
