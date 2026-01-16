@@ -1,4 +1,4 @@
-id: 08_gcp_taxi
+id: gcp_taxi
 namespace: zoomcamp
 description: |
   The CSV Data used in the course: https://github.com/DataTalksClub/nyc-tlc-data/releases
@@ -242,7 +242,7 @@ tasks:
 pluginDefaults:
   - type: io.kestra.plugin.gcp
     values:
-      serviceAccount: "{{kv('GCP_CREDS')}}"
+      serviceAccount: "{{secret('GCP_SERVICE_ACCOUNT')}}" 
       projectId: "{{kv('GCP_PROJECT_ID')}}"
       location: "{{kv('GCP_LOCATION')}}"
       bucket: "{{kv('GCP_BUCKET_NAME')}}"
