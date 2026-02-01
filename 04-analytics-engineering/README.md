@@ -26,13 +26,13 @@ Choose your setup path:
 
 ### 🏠 [Local Setup](setup/local_setup.md)
 
-- **Stack**: DuckDB + dbt Core + Streamlit
+- **Stack**: DuckDB + dbt Core
 - **Cost**: Free
 - [→ Get Started](setup/local_setup.md)
 
 ### ☁️ [Cloud Setup](setup/cloud_setup.md)
 
-- **Stack**: BigQuery + dbt Cloud + Looker Studio
+- **Stack**: BigQuery + dbt Cloud
 - **Cost**: Free tier available (dbt Cloud Developer), BigQuery costs vary
 - **Requires**: Completed Module 3 with BigQuery data
 - [→ Get Started](setup/cloud_setup.md)
@@ -41,48 +41,36 @@ Choose your setup path:
 
 ### Introduction to Analytics Engineering
 
-:movie_camera: What is Analytics Engineering?
+[![](https://markdown-videos-api.jorgenkh.no/youtube/HxMIsPrIyGQ)](https://www.youtube.com/watch?v=HxMIsPrIyGQ)
 
 ### Introduction to data modeling
 
-[![](https://markdown-videos-api.jorgenkh.no/youtube/uF76d5EmdtU)](https://youtu.be/uF76d5EmdtU&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=40)
+[![](https://markdown-videos-api.jorgenkh.no/youtube/uF76d5EmdtU)](https://www.youtube.com/watch?v=uF76d5EmdtU&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=40)
 
 ### What is dbt?
 
-[![](https://markdown-videos-api.jorgenkh.no/youtube/4eCouvVOJUw)](https://www.youtube.com/watch?v=gsKuETFJr54&list=PLaNLNpjZpzwgneiI-Gl8df8GCsPYp_6Bs&index=5)
+[![](https://markdown-videos-api.jorgenkh.no/youtube/gsKuETFJr54)](https://www.youtube.com/watch?v=gsKuETFJr54&list=PLaNLNpjZpzwgneiI-Gl8df8GCsPYp_6Bs&index=5)
+
+### Differences between dbt Core and dbt Cloud
+
+[![](https://markdown-videos-api.jorgenkh.no/youtube/auzcdLRyEIk)](https://www.youtube.com/watch?v=auzcdLRyEIk)
 
 ### Project Setup
 
 | Alternative A  | Alternative B   |
 |-----------------------------|--------------------------------|
 | BigQuery + dbt Platform | DuckDB + dbt core |
-| [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FGFbwlrt6f54)](https://youtu.be/GFbwlrt6f54) | [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FqkuTGB40PBc)](https://youtu.be/qkuTGB40PBc)|
+| [![](https://markdown-videos-api.jorgenkh.no/youtube/GFbwlrt6f54)](https://www.youtube.com/watch?v=GFbwlrt6f54) | [![](https://markdown-videos-api.jorgenkh.no/youtube/GoFAbJYfvlw)](https://www.youtube.com/watch?v=GoFAbJYfvlw) |
 
-### dbt models
+### dbt Course
 
-:movie_camera: dbt models
+| dbt Project Structure | dbt Sources | dbt Models | Seeds and Macros |
+|-----------------------|-------------|------------|------------------|
+| [![](https://markdown-videos-api.jorgenkh.no/youtube/2dYDS4OQbT0)](https://www.youtube.com/watch?v=2dYDS4OQbT0) | [![](https://markdown-videos-api.jorgenkh.no/youtube/7CrrXazV_8k)](https://www.youtube.com/watch?v=7CrrXazV_8k) | [![](https://markdown-videos-api.jorgenkh.no/youtube/JQYz-8sl1aQ)](https://www.youtube.com/watch?v=JQYz-8sl1aQ) | [![](https://markdown-videos-api.jorgenkh.no/youtube/lT4fmTDEqVk)](https://www.youtube.com/watch?v=lT4fmTDEqVk) |
 
-### Testing and Documentation
-
-:movie_camera: Testing and documenting
-
-### Other features
-
-:movie_camera: Other features
-
-### Deployment
-
-| Alternative A  | Alternative B   |
-|-----------------------------|--------------------------------|
-| Using BigQuery + dbt cloud | Using DuckDB + dbt core (locally) |
-| :movie_camera: Deployment A | :movie_camera: Deployment B |
-
-### Visualizing the transformed data
-
-| Alternative A  | Alternative B   |
-|-----------------------------|--------------------------------|
-| Using BigQuery + dbt cloud | Using DuckDB + dbt core (locally) |
-| :movie_camera: Google Looker studio | :movie_camera: Streamlit Video |
+| dbt Tests | Documentation | dbt Packages | dbt Commands |
+|-----------|---------------|----------------------|---------------|
+| [![](https://markdown-videos-api.jorgenkh.no/youtube/bvZ-rJm7uMU)](https://www.youtube.com/watch?v=bvZ-rJm7uMU) | [![](https://markdown-videos-api.jorgenkh.no/youtube/UqoWyMjcqrA)](https://www.youtube.com/watch?v=UqoWyMjcqrA) | [![](https://markdown-videos-api.jorgenkh.no/youtube/KfhUA9Kfp8Y)](https://www.youtube.com/watch?v=KfhUA9Kfp8Y) | [![](https://markdown-videos-api.jorgenkh.no/youtube/t4OeWHW3SsA)](https://www.youtube.com/watch?v=t4OeWHW3SsA) |
 
 ## Extra resources
 

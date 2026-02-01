@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="images/architecture/arch_v4_workshops.jpg" alt="Data Engineering Zoomcamp Overview">
+  <img width="100%" src="/images/architecture/arch_v4_workshops.jpg" alt="Data Engineering Zoomcamp Overview">
 </p>
 
 <h1 align="center">
@@ -70,9 +70,9 @@ No prior data engineering experience is necessary.
 - Machine learning in BigQuery
 
 #### [Module 4: Analytics Engineering](04-analytics-engineering/)
+- Analytics Engineering and Data Modeling
 - dbt (data build tool) with DuckDB & BigQuery
 - Testing, documentation, and deployment
-- Data visualization with Streamlit & Looker Studio
 
 #### [Module 5: Batch Processing](05-batch/)
 - Introduction to Apache Spark
