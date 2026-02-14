@@ -1,14 +1,10 @@
--- Data mart for monthly revenue analysis by pickup zone and service type
--- This aggregation is optimized for business reporting and dashboards
--- Enables analysis of revenue trends across different zones and taxi types
+-- Aggregate monthly revenue by zone and service type
 
 select
-    -- Grouping dimensions
-    coalesce(pickup_zone, 'Unknown Zone') as pickup_zone,
-    date_trunc('month', pickup_datetime) as revenue_month,  -- Truncate to first day of month
+    coalesce(pickup_zone, 'Unknown') as pickup_zone,
+    date_trunc('month', pickup_datetime) as revenue_month,
     service_type,
 
-    -- Revenue breakdown (summed by zone, month, and service type)
     sum(fare_amount) as revenue_monthly_fare,
     sum(extra) as revenue_monthly_extra,
     sum(mta_tax) as revenue_monthly_mta_tax,
@@ -17,11 +13,8 @@ select
     sum(ehail_fee) as revenue_monthly_ehail_fee,
     sum(improvement_surcharge) as revenue_monthly_improvement_surcharge,
     sum(total_amount) as revenue_monthly_total_amount,
-
-    -- Additional metrics for operational analysis
     count(trip_id) as total_monthly_trips,
     avg(passenger_count) as avg_monthly_passenger_count,
     avg(trip_distance) as avg_monthly_trip_distance
-
 from {{ ref('fct_trips') }}
-group by pickup_zone, revenue_month, service_type
+group by 1,2,3
