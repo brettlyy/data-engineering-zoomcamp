@@ -21,4 +21,6 @@ serving_dir
 .env_encoded
 **/.env
 **/.env_encoded
-.venv
+**.venv/
+*.duckdb
+.venv/
