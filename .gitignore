@@ -24,3 +24,10 @@ serving_dir
 **.venv/
 *.duckdb
 .venv/
+.bruin.yml
+logs/runs
+logs/*.log
+__pycache__/
+*.py[cod]
+logs/queries
+*.duckdb
